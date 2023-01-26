@@ -32,13 +32,14 @@
 <input type="hidden"  id="external" name="external" value="1" /><br>
 
 <div class="g-recaptcha" data-sitekey="6LdNzu0jAAAAAA14Qstw0V87Y7h4CXsoaftHrvDt"></div><br>
-  <script type="text/javascript">
+ 
+<input type="submit" name="submit" id="submitBtn" disabled="true" class="button"/>
+
+</form>
+   <script type="text/javascript">
 function recaptcha_callback(){
 $('.button').prop("disabled", false);
 }
 </script>
-<input type="submit" name="submit" id="submitBtn" disabled="true" class="button"/>
-
-</form>
 </body>
 </html>
