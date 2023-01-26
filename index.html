@@ -6415,13 +6415,7 @@
    
   </head>
   <body>
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript">
-    function recaptcha_callback(){
-      alert("callback working");
-      $('.button').prop("disabled", false);
-    }
-</script>
+
     <form
       action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8"
       method="POST"
@@ -6691,5 +6685,12 @@
         ddSubType.disabled = false
       }
     </script>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    function recaptcha_callback(){
+      alert("callback working");
+      $('.button').prop("disabled", false);
+    }
+</script>
   </body>
 </html>
